@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    name: micro  #数据库名
+    url: jdbc:mysql://localhost:3307/micro?serverTimezone=UTC #url
+    username: root  #用户名
+    password: 1234567  #密码
+    driver-class-name: com.mysql.jdbc.Driver
