@@ -11,6 +11,7 @@ public class helloController {
     public String hello(){
         System.out.println("aaaaaaaaa");
         System.out.println("bbbbbbbbb");
+        System.out.println("ccccccccc");
         return "index";
     }
 }
