@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class helloController {
     @GetMapping("/micro")
     public String hello(){
+        System.out.println("aaaaaaaaa");
         return "index";
     }
 }
